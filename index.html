@@ -1,23 +1,135 @@
----
-layout: default
----
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Night & Day Project</title>
+    <link href="Night&Day.css" type="text/css" rel="stylesheet" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <style>
+.sun {
+  background-color: #ffdd00;
+  border: 10px solid #f1c40f;
+  transition: .2s ease-in-out;
+  
+}
 
-<div class="home">
+.sun:hover {
+    border: 20px solid #f1c40f;
+    cursor: pointer;
+}
 
-  <h1 class="page-heading">Posts</h1>
+.moon {
+  background-color: #bdc3c7;
+  border: 10px solid #eaeff2;
+  transition: .2s ease-in-out;
+}
 
-  <ul class="post-list">
-    {% for post in site.posts %}
-      <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+.moon:hover {
+ border: 20px solid #eaeff2;
+}
 
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h2>
-      </li>
-    {% endfor %}
-  </ul>
+.night {
+    background-color: #2c3e50;
+}
 
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
+.day {
+    background-color: #37d8e6;
+}
 
-</div>
+#orb {
+    height: 300px;
+    width: 300px;
+    border-radius: 100%;
+    padding: 20px;
+    margin: auto;
+    position: absolute;
+    top: 0; left: 0; bottom: 0; right: 0;
+    z-index: 2;
+    background-color: #blue;
+    transition: .9s ease-in-out;
+}
+
+#sky {
+    height: 100%;
+    width: 100%;
+    margin: auto;
+    top: 0; left: 0; bottom: 0; right: 0;
+    position: absolute;
+    z-index: 1;
+    transition: .9s ease-in-out;
+}
+
+#moonspot1 {
+    height: 40px;
+    width: 40px;
+    border-radius: 100%;
+    float:right;
+    margin: 20px;
+    transition: .9s ease-in-out;
+}
+
+#moonspot2 {
+    height: 80px;
+    width: 80px;
+    border-radius: 100%;
+    float:right;
+    margin: 20px;
+    transition: .9s ease-in-out;
+}
+
+#moonspot3 {
+    height: 180px;
+    width: 180px;
+    border-radius: 100%;
+    float:right;
+    margin: 20px;
+    transition: .9s ease-in-out;
+}
+
+.visible {
+    background-color: #eaeff2;
+}
+    </style>
+  </head>
+  
+  <body>
+    <div id="orb" class= "sun">
+      <div id= "moonspot1"></div>
+      <div id= "moonspot2"></div>
+      <div id= "moonspot3"></div>
+    </div>
+    <div id="sky" class= "day"></div> 
+    <script>
+    $(document).ready(function() {
+    $('#orb').click(function() {        
+        if ($('#orb').hasClass('sun')) {
+            $('#orb').removeClass('sun').addClass('moon');
+        }
+        else {
+            $('#orb').removeClass('moon').addClass('sun');
+        }
+        if ($('#sky').hasClass('day')) {
+          $('#sky').removeClass('day').addClass('night');
+        } else {
+          $('#sky').removeClass('night').addClass('day');
+        }
+        if ($('#moonspot1').hasClass('visible')) {
+          $('#moonspot1').removeClass('visible');
+        } else {
+          $('#moonspot1').addClass('visible');
+        }
+        if ($('#moonspot2').hasClass('visible')) {
+          $('#moonspot2').removeClass('visible');
+        } else {
+          $('#moonspot2').addClass('visible');
+        }
+        if ($('#moonspot3').hasClass('visible')) {
+        $('#moonspot3').removeClass('visible');
+        } else {
+        $('#moonspot3').addClass('visible');
+        }
+       });
+      });
+      
+    </script>
+  </body>
+</html>
