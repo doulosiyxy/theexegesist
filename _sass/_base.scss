@@ -8,6 +8,12 @@ dl, dd, ol, ul, figure {
     padding: 0;
 }
 
+@include media-query($on-palm) {
+     header h1 {
+        font-size: 16px;
+     }
+}
+
 
 
 /**
