@@ -7,10 +7,10 @@ dl, dd, ol, ul, figure {
     margin: 0;
     padding: 0;
 }
-
+/* My addition to reduce size of title on palm*/
 @include media-query($on-palm) {
      header h1 {
-        font-size: 20px;
+        font-size: 25px;
      }
     #enter-btn {
       float: right;
