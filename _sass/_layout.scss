@@ -50,6 +50,10 @@
         border: 1px solid $grey-color-light;
         border-radius: 5px;
         text-align: right;
+        
+        #title {
+          font-size: 20px;
+        }
 
         .menu-icon {
             display: block;
