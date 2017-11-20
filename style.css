@@ -113,14 +113,14 @@ header p {
   color: none;
   height: auto;
   text-shadow: 0.25px 0.25px 0.25px #000000;
-  background-color: none;
+  background-color: black;
 }
 
 #vidcase {
   margin-bottom: -5px;
   padding-top: 0;
-  padding-bottom: 0;
-  background-color: none;
+  padding-bottom: -7px;
+  background-color: black;
 }
 
 .jumbotron h2 {
