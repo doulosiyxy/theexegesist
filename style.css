@@ -110,7 +110,7 @@ header p {
   align-items: center;
   background-image: none;
   background-size: cover;
-  color: #ffffff;
+  color: none;
   height: auto;
   text-shadow: 0.25px 0.25px 0.25px #000000;
 }
