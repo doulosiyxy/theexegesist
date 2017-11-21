@@ -86,7 +86,7 @@ header p {
   position: absolute;
   z-index: 900;
   opacity: 1; 
-  
+  border: 1px solid white;
   }
 
 #close-wrapper {
