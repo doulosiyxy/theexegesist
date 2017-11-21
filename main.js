@@ -1,5 +1,5 @@
 $(document).ready( function() {
-  $('.title').delay(19500).fadeTo("2000", 1);
+  $('.title').delay(19500).fadeTo(2000, 1);
   $('#enter-btn').hide().delay(19500).fadeIn(700);
   $('#close').delay(2000).fadeTo(2000, 1).delay(15500).fadeOut(2000);
 
