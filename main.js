@@ -1,6 +1,8 @@
+
+$('#enter-btn').hide();
 $(document).ready( function() {
   $('.title').delay(19500).fadeTo(2000, 1);
-  $('#enter-btn').hide(1).delay(19500).fadeIn(2000);
+  $('#enter-btn').hide().delay(19500).fadeIn(2000);
   $('#close').delay(2000).fadeTo(2000, 1).delay(15500).fadeOut(2000);
 
 //below is for text change on enter btn.
