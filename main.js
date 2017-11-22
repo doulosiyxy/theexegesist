@@ -14,7 +14,7 @@ $(document).ready( function() {
   });
   
   //below triggers poster if device is mobile and hides video content.
-  var vid = $('#poster');
+  var vid = $('#landinvid');
   vid.onerror = function() {
     vid.hide(1);
     $('#poster').show();
