@@ -17,7 +17,7 @@ $(document).ready( function() {
   var vid = document.getElementById("landingvid");
   vid.onerror = function() {
     vid.hide(1);
-    $('#poster').fadeTo(2000, 1);
+    $('#poster').show();
    };
   
 });
