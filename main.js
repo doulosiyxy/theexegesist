@@ -16,9 +16,8 @@ $(document).ready( function() {
   //below triggers poster if device is mobile and hides video content.
   
   if(site.isMobile()){
-    $('video *').hide();
-    $('video img').show();
-}
-  
+    $('video *').hide(1);
+    $('#poster').show(2000);
+} 
   
 });
