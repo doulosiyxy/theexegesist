@@ -1,9 +1,10 @@
 body {
   font-family: 'Roboto', sans-serif;
   font-weight: 300;
+  width: 100%;
 }
 
-#home-two {
+#home {
   width: 100%;
   background-size: cover;
 }
