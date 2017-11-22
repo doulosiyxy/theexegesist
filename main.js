@@ -1,6 +1,6 @@
 $(document).ready( function() {
   
-  $('#close').delay(2000).fadeTo(2000, 1) 
+  $('#close').delay(2000).fadeTo(2000, 1); 
   
   $("#landingvid").on("ended", function() {
   
