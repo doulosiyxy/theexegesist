@@ -2,7 +2,7 @@
 $('#enter-btn').hide();
 $(document).ready( function() {
   
-.delay(2000).fadeTo(2000, 1) 
+  $('#close').delay(2000).fadeTo(2000, 1) 
   
   $("#landingvid").on("ended", function() {
   
