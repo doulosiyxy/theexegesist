@@ -10,7 +10,11 @@
     position: relative;
 }
 
-.site-header * {
+.site-header p {
+  margin: 0 15px;
+}
+
+.site-header h1 {
   margin: 0 15px;
 }
 
@@ -107,7 +111,10 @@
     padding: $spacing-unit 0;
 }
 
-.site-header * {
+.site-header p {
+  margin: 0 15px;
+}
+.site-header li {
   margin: 0 15px;
 }
 
