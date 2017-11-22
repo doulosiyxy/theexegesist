@@ -28,7 +28,7 @@ if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(naviga
   $('.title').fadeTo(2000, 1);
   $('#enter-btn').fadeTo(2000, 1);
 
-//fade in and outs on play
+/*//fade in and outs on play
  $("#landingvid").on('play',function() {
    $('.title').fadeTo(2000, 0);
    $('#enter-btn').fadeTo(2000, 0);
@@ -41,7 +41,7 @@ if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(naviga
    $('#enter-btn').fadeTo(2000, 1);
    $('#close').fadeOut(2000);
     
- });
+ });*/
   
 }
   
