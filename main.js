@@ -4,7 +4,7 @@ $(document).ready( function() {
   
 .delay(2000).fadeTo(2000, 1) 
   
-  $("#landingvid").bind("ended", function() {
+  $("#landingvid").on("ended", function() {
   
   $('.title').fadeTo(2000, 1);
   $('#enter-btn').fadeIn(2000);
