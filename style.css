@@ -74,6 +74,10 @@ header p {
   background-size: cover;
 }
 
+#poster {
+  z-index: 2000;
+}
+
 #close {
   color: #8C0404;
   font-weight: 400;
