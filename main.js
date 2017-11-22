@@ -14,11 +14,10 @@ $(document).ready( function() {
   });
   
   //below triggers poster if device is mobile and hides video content.
-  $('#poster').hide(1);
   var vid = document.getElementById("landingvid");
   vid.onerror = function() {
     vid.hide(1);
-    $('#poster').fadeIn(2000);
+    $('#poster').fadeTo(2000, 1);
    };
   
 });
