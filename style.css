@@ -54,6 +54,7 @@ header p {
   border: 2px solid #8C0404;
   border-radius: 2px;
   cursor: pointer;
+  opacity: 0;
 }
 
 #enter-btn:hover {
