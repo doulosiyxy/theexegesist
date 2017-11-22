@@ -14,16 +14,8 @@ $(document).ready( function() {
   });
   
   //below triggers poster if device is mobile and hides video content.
-  function idleTime() { 
-  var vid = $('#landingvid');
-  var vidCurrentTime = vid.currentTime;
-  var posterTrigger = vidCurrentTime ++1;
-    
-    if(vidCurrentTime >= 5) {
-       vid.hide(1);
-       $('#poster').show();
-    }
+  while($('#landingvid').currentTime === 0) {
+    $('#poster').show();
   }
-  setInterval(idleTime, 1000);
   
 });
