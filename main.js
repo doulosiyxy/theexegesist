@@ -7,7 +7,7 @@ $(document).ready( function() {
   $("#landingvid").on("ended", function() {
   
   $('.title').fadeTo(2000, 1);
-  $('#enter-btn').fadeIn(2000);
+  $('#enter-btn').fadeTo(2000 1);
   $('#close').fadeOut(2000);
     
  });
