@@ -1,5 +1,3 @@
-
-$('#enter-btn').hide();
 $(document).ready( function() {
   
   $('#close').delay(2000).fadeTo(2000, 1) 
