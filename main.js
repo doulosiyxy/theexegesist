@@ -16,6 +16,7 @@ $(document).ready( function() {
   //below triggers poster if device is mobile and hides video content.
   var vid = $('#landinvid');
   vid.onerror = function() {
+    alert("and error has occured");
     vid.hide(1);
     $('#poster').show();
    };
