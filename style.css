@@ -76,7 +76,7 @@ header p {
 
 #poster {
   z-index: 2000;
-  opacity: 0;
+  display: none;
 }
 
 #close {
