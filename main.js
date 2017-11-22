@@ -15,9 +15,6 @@ $(document).ready( function() {
   $("#enter-btn").text("Enter");
   });
   
-  //below triggers poster if device is mobile and hides video content.
-  while($('#landingvid').currentTime === 0) {
-    $('#poster').show();
-  }
+  
   
 });
