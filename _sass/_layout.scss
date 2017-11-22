@@ -10,6 +10,10 @@
     position: relative;
 }
 
+.site-header * {
+  margin: 0 15px;
+}
+
 .site-title {
     font-size: 26px;
     font-weight: 300;
@@ -101,6 +105,10 @@
 .site-footer {
     border-top: 1px solid blac; /*$grey-color-light*/
     padding: $spacing-unit 0;
+}
+
+.site-header * {
+  margin: 0 15px;
 }
 
 .footer-heading {
