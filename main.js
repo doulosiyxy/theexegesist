@@ -23,7 +23,7 @@ $(document).ready( function() {
  //controls and settings for mobile devices
   
 if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
-  $('#close').fadeTo(2000, 0);
+  $('#close').hide();
   document.getElementById("landingvid").controls = true;
   $('.title').fadeTo(2000, 1);
   $('#enter-btn').fadeTo(2000, 1);
