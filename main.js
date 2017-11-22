@@ -14,11 +14,16 @@ $(document).ready( function() {
   });
   
   //below triggers poster if device is mobile and hides video content.
-  var vid = $('#landinvid');
-  vid.onerror = function() {
-    alert("and error has occured");
-    vid.hide(1);
-    $('#poster').show();
-   };
+  function idleTime() { 
+  var vid = $('#landingvid');
+  var vidCurrentTime = vid.currentTime;
+  var posterTrigger = vidCurrentTime ++1;
+    
+    if(vidCurrentTime >= 5) {
+       vid.hide(1);
+       $('#poster').show();
+    }
+  }
+  setInterval(idleTime, 1000);
   
 });
