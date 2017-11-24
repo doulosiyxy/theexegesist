@@ -20,6 +20,19 @@ $(document).ready( function() {
   $("#enter-btn").text("Enter");
   });
   
+ //on click event listener to show header on home and blog page
+  
+  $("#enter-btn").on('click', () => {
+  $("#enter-btn").fadeTo(0, 0);
+  $('.title').fadeTo(0, 1);
+  });
+  
+  $('#close').on('click', () => {
+  $("#enter-btn").fadeTo(0, 0);
+  $('.title').fadeTo(0, 1);
+  });
+  
+  
  //controls and settings for mobile devices
   
 if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
