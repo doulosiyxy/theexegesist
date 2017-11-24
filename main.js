@@ -23,13 +23,13 @@ $(document).ready( function() {
  //on click event listener to show header on home and blog page
   
   $("#enter-btn").on('click', () => {
-  $("#enter-btn").fadeTo(1, 0);
-  $('.title').fadeTo(2000, 1);
+  $("#enter-btn").hide();
+  $('.title').show();
   });
   
   $('#close').on('click', () => {
-  $("#enter-btn").fadeTo(1, 0);
-  $('.title').fadeTo(2000, 1);
+  $("#enter-btn").hide();
+  $('.title').show();
   });
   
   
