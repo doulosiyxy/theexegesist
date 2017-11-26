@@ -57,6 +57,7 @@ header p {
   cursor: pointer;
   opacity: 0;
   text-decoration: none;
+  float: right;
 }
 
 #enter-btn:hover {
