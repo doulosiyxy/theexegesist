@@ -41,7 +41,7 @@ if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(naviga
   $('.title').fadeTo(2000, 1);
   $('#enter-btn').fadeTo(2000, 1);
   $('#landingvid').hide();
-  $('#mobile-landing-img').show('slow');
+  $('#mobile-landing-img').show();
 
 /*//fade in and outs on play
  $("#landingvid").on('play',function() {
