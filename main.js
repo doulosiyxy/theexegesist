@@ -37,9 +37,10 @@ $(document).ready( function() {
   
 if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
   $('#close').hide();
-  document.getElementById("landingvid").controls = true;
+  //document.getElementById("landingvid").controls = true;
   $('.title').fadeTo(2000, 1);
   $('#enter-btn').fadeTo(2000, 1);
+  $('#landingvid').hide();
 
 /*//fade in and outs on play
  $("#landingvid").on('play',function() {
