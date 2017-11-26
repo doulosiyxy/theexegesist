@@ -61,11 +61,13 @@ header p {
 #enter-btn:hover {
   color: black;
   background-color: #8C0404;
+  text-decoration: none;
 
 }
 
 #enter-btn:active {
   box-shadow: 2px -1px 9px #000000 inset;
+  text-decoration: none;
 
 }
 
