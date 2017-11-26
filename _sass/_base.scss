@@ -20,6 +20,15 @@ dl, dd, ol, ul, figure {
     }
 }
 
+@media-query only screen and (orientation : landscape) {
+    #enter-btn {
+      float: right;
+      font-size: 15px;
+      padding-right: 8px;
+      padding-left: 8px;
+    }
+} 
+
 
 
 /**
