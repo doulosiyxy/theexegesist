@@ -290,8 +290,8 @@ footer li img {
   border-bottom: 0.5px solid #8C0404;
   animation: glow; 
   animation-duration: 2s; 
-  -webkit-animation-timing-function: ease-in;
-  animation-timing-function: ease;
+  -webkit-animation-timing-function: ease-in-out;
+  animation-timing-function: ease-in-out;
   -webkit-animation-delay: 1s;
   animation-delay: 1s;
   
