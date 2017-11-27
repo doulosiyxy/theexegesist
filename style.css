@@ -244,9 +244,15 @@ footer li img {
 
 #about-text (
   z-index: 0;
+  margin-bottom: 10px;
+)
+
+#about-text h3 (
+  font-size: 20px;
 )
 
 #about-img (
+  margin-top: 10px;
   position: fixed;
   background-size: cover;
   z-index: 0;
