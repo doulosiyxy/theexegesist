@@ -250,6 +250,8 @@ footer li img {
   z-index: 0;
   margin-bottom: 25px;
   overflow: hidden;
+  animation-name: fadeIn;
+  animation-duration: 1s;
 }
 
 #about-text h3 {
@@ -267,14 +269,10 @@ footer li img {
 }
 
 @keyframes fadeIn {
-    from {opacity: 0; right: -100px;}
+    from {opacity: 0; right: -1000px;}
     to {opacity: 1; right: 0px;}
 }
-  
-#about-centering-div {
-  animation-name: fadeIn;
-  animation-duration: 1s;
-}
+ 
 
 #read-more-btn {
   border: 2px solid #8C0404;
