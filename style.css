@@ -4,6 +4,10 @@ body {
   width: 100%;
 }
 
+a {
+  text-decoration: none;
+}
+
 #home {
   width: 100%;
   background-size: cover;
