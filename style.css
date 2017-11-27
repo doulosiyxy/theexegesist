@@ -290,8 +290,7 @@ footer li img {
   animation-duration: 2s; 
   -webkit-animation-timing-function: ease-in-out;
   animation-timing-function: ease-in-out;
-  -webkit-animation-delay: 1s;
-  animation-delay: 1s;
+  
   
 }
 
