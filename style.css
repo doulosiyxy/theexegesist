@@ -292,6 +292,8 @@ footer li img {
   animation-duration: 2s; 
   -webkit-animation-timing-function: ease-in;
   animation-timing-function: ease;
+  -webkit-animation-delay: 1s;
+  animation-delay: 1s;
   
 }
 
