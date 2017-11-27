@@ -250,6 +250,7 @@ footer li img {
   z-index: 0;
   margin-bottom: 25px;
   overflow: hidden;
+  float: right;
   animation-name: fadeIn;
   animation-duration: 1s;
 }
