@@ -246,34 +246,40 @@ footer li img {
 
 /*below are adjustments for about page*/
 
+@keyframes moveIn {
+    from {opacity: 0; right: -500px;}
+    to {opacity: 1; right: 0px;}
+}
+
 #about-text {
   z-index: 0;
   margin-bottom: 25px;
   overflow: hidden;
   float: right;
-  animation-name: fadeIn;
-  animation-duration: 2s;
+  animation-name: moveIn;
+  animation-duration: 1s;
 }
 
 #about-text h3 {
   font-size: 20px;
 }
 
+@keyframes fadeIn {
+    from {opacity: 0;}
+    to {opacity: 1;}
+}
+
 #about-img {
   background-size: cover;
   z-index: 0;
+  animation-name: fadeIn;
+  animation-duration: 1s;
 }
 
 #site-header-two {
   margin-bottom: 25px;
   border-bottom: 0.5px solid #8C0404;
 }
-
-@keyframes fadeIn {
-    from {opacity: 0; right: -500px;}
-    to {opacity: 1; right: 0px;}
-}
- 
 
 #read-more-btn {
   border: 2px solid #8C0404;
