@@ -42,6 +42,9 @@ if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(naviga
   $('#enter-btn').fadeTo(2000, 1);
   $('#landingvid').hide();
   $('#poster').show();
+  
+  $('#about-text').removeClass('col-sm-4').addClass('col-sm-12');
+  $('#about-img').removeClass('col-sm-8').addClass('col-sm-12');
 
 /*//fade in and outs on play
  $("#landingvid").on('play',function() {
