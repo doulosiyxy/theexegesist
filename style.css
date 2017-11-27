@@ -252,7 +252,7 @@ footer li img {
   overflow: hidden;
   float: right;
   animation-name: fadeIn;
-  animation-duration: 1s;
+  animation-duration: 2s;
 }
 
 #about-text h3 {
@@ -270,7 +270,7 @@ footer li img {
 }
 
 @keyframes fadeIn {
-    from {opacity: 0; right: -1000px;}
+    from {opacity: 0; right: -500px;}
     to {opacity: 1; right: 0px;}
 }
  
