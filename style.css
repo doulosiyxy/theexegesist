@@ -272,7 +272,6 @@ footer li img {
 }
   
 #about-centering-div {
-  position: absolute;
   animation-name: fadeIn;
   animation-duration: 1s;
 }
