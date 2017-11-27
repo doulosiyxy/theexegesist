@@ -257,3 +257,7 @@ footer li img {
   background-size: cover;
   z-index: 0;
 )
+
+header-two {
+  margin-bottom: 20px;
+}
