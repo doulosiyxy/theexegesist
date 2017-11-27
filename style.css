@@ -328,6 +328,7 @@ footer li img {
 #blog-btn:active {
   box-shadow: 2px -1px 9px #000000 inset;
   text-decoration: none;
+  border: none;
 
 }
 
@@ -355,6 +356,7 @@ footer li img {
 #about-btn:active {
   box-shadow: 2px -1px 9px #000000 inset;
   text-decoration: none;
+  border: none;
 
 }
 
