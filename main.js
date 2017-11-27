@@ -43,8 +43,8 @@ if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(naviga
   $('#landingvid').hide();
   $('#poster').show();
   
-  $('#about-text').removeClass('col-sm-4').addClass('col-sm-4');
-  $('#about-img').removeClass('col-sm-8').addClass('col-sm-10');
+  $('#about-text').removeClass('col-sm-4').addClass('col-sm-12');
+  $('#about-img').removeClass('col-sm-8').addClass('col-sm-12');
 
 /*//fade in and outs on play
  $("#landingvid").on('play',function() {
