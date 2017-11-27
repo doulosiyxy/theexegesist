@@ -239,3 +239,15 @@ footer li img {
   height: 32px;
   color: red;
 }
+
+/*below are adjustments for about page*/
+
+#about-text (
+  z-index: 0;
+)
+
+#about-img (
+  position: fixed;
+  background-size: cover;
+  z-index: 0;
+)
