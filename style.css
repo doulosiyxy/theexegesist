@@ -269,6 +269,7 @@ footer li img {
 @keyframes fadeIn {
     from {opacity: 0; right: -100px;}
     to {opacity: 1; right: 0px;}
+}
   
 #about-centering-div {
   position: absolute;
