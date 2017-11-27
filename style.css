@@ -244,7 +244,7 @@ footer li img {
 
 #about-text {
   z-index: 0;
-  margin-bottom: 100px;
+  margin-bottom: 25px;
 }
 
 #about-text h3 {
@@ -257,5 +257,5 @@ footer li img {
 }
 
 #site-header-two {
-  margin-bottom: 100px;
+  margin-bottom: 25px;
 }
