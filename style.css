@@ -247,7 +247,7 @@ footer li img {
 /*below are adjustments for about page*/
 
 @keyframes moveIn {
-    from {opacity: 0; right: -500px;}
+    from {opacity: 0; right: -50px;}
     to {opacity: 1; right: 0px;}
 }
 
