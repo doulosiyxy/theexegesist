@@ -242,22 +242,21 @@ footer li img {
 
 /*below are adjustments for about page*/
 
-#about-text (
+#about-text {
   z-index: 0;
-  margin-bottom: 10px;
-)
+  margin-bottom: 100px;
+}
 
-#about-text h3 (
+#about-text h3 {
   font-size: 20px;
-)
+}
 
-#about-img (
-  margin-top: 20px;
+#about-img {
   position: fixed;
   background-size: cover;
   z-index: 0;
-)
+}
 
 #site-header-two {
-  margin-bottom: 20px;
+  margin-bottom: 100px;
 }
