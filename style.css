@@ -404,6 +404,9 @@ footer li img {
 #articles {
   color: white;
   padding: 10px 30px;
+  max-width: 700px;
+  margin: auto;
+  float: none;
 }
 
 article p {
