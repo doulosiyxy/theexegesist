@@ -411,14 +411,19 @@ article p {
   text-justify: kashida;
 }
 
+#sidebar {
+   position: relative;
+}
+
 #post-img {
   position: relative;
+  border-radius: 100%;
+  border: 5px solid black;
 }
 
 #blog-img {
   border-radius: 100%;
   border: 5px solid black;
-  box-shadow: 0px 0px 100px 50px white inset;
 }
 
 
