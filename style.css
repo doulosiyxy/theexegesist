@@ -247,8 +247,8 @@ footer li img {
 /*below are adjustments for about page*/
 
 @keyframes moveIn {
-    from {opacity: 0; bottom: -50px;}
-    to {opacity: 1; bottom: 0px;}
+    from {bottom: -50px;}
+    to {bottom: 0px;}
 }
 
 
@@ -259,10 +259,11 @@ footer li img {
   overflow: hidden;
   float: right;
   opacity: 0;
-  /*animation-name: moveIn;
+  animation-name: moveIn;
   animation-duration: 1s;
   -webkit-animation-timing-function: linear;
-  animation-timing-function: linear;*/
+  animation-timing-function: linear;
+  animation-delay: 1s;
 }
 
 #about-text h3 {
