@@ -400,7 +400,7 @@ footer li img {
   padding: 10px 30px;
 }
 
-#articles p {
+article p {
   font-size: 14px;
   text-align: justify;
   text-justify: kashida;
