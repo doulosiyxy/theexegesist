@@ -37,14 +37,12 @@ $(document).ready( function() {
   $('#about-text').delay(1000).fadeTo(2000, 1);
   
   //#post-img animation
-  var count = Math.floor(Math.random() * 10000) + 1;
   
-  function flicker() {
-    
-  $('#post-img').fadeTo(5, 0).delay(500).fadeTo(100, 1); 
+  function flicker() { 
+    $('#post-img').fadeTo(5, 0).delay(500).fadeTo(100, 1); 
     }
     
-  setInterval(flicker, count);
+  setInterval(flicker, Math.floor(Math.random() * 10000) + 1);
   
   
  //controls and settings for mobile devices
