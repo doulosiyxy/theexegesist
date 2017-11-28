@@ -406,8 +406,8 @@ footer li img {
 
 #blog-img {
   border-radius: 100%;
-  border: 3px solid black;
-  box-shadow: 5px 5px 20px black inset;
+  border: 5px solid black;
+  box-shadow: 5px 5px 20px white inset;
 }
 
 
