@@ -63,7 +63,7 @@ if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(naviga
   $('#articles').css({'max-width' : '700px', 'float' : 'none', 'margin' : 'auto'});
   $('#sidebar').hide();
   $('#sidebar-two').fadeIn('slow');
-  $('#post-text').css({'margin' : 'auto'});
+  $('#post-text').removeClass('col-sm-8').addClass('col-sm-12').css({'max-width' : '600px', 'float' : 'none', 'margin' : 'auto'});
 
 /*//fade in and outs on play
  $("#landingvid").on('play',function() {
