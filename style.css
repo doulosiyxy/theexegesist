@@ -407,7 +407,7 @@ footer li img {
 #blog-img {
   border-radius: 100%;
   border: 5px solid black;
-  box-shadow: 5px 5px 20px white inset;
+  box-shadow: 0px 0px 100px white inset;
 }
 
 
