@@ -402,5 +402,6 @@ footer li img {
 
 #post-img {
   position: fixed;
+  float: right;
 }
 
