@@ -400,3 +400,7 @@ footer li img {
   padding: 10px 30px;
 }
 
+#blog-img {
+  position: fixed;
+}
+
