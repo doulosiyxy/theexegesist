@@ -427,8 +427,8 @@ article p {
   margin: auto;
   box-shadow: inset 0px 0px 50px rgba(0,0,0,1);
   margin-bottom: 5px;
-  /*border-left: 1px solid rgba(255, 25, 2, 0.4);
-  border-right: 1px solid rgba(255, 25, 2, 0.4);*/
+  border-left: 1px solid rgba(255, 25, 2, 0.2);
+  border-right: 1px solid rgba(255, 25, 2, 0.2);
 }
 
 
