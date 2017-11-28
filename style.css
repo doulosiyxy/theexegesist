@@ -418,13 +418,14 @@ article p {
 #post-img {
   position: relative;
   border-radius: 100%;
-  box-shadow: inset 0px 0px 20px white;
+  
   
 }
 
 #blog-img {
   border-radius: 100%;
   border: 5px solid black;
+  box-shadow: inset 0px 0px 100px white;
 }
 
 
