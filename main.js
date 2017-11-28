@@ -36,6 +36,14 @@ $(document).ready( function() {
   
   $('#about-text').delay(1000).fadeTo(2000, 1);
   
+  //#post-img animation
+  
+  function flicker() {
+  $('#post-img').fadeTo(5, 0).delay(5).fadeTo(100, 1);
+    
+    }
+    setInterval(flicker, 1000);
+  
   
  //controls and settings for mobile devices
   
