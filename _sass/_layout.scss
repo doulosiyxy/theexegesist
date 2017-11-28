@@ -107,8 +107,9 @@
  * Site footer
  */
 .site-footer {
-    border-top: 1px solid blac; /*$grey-color-light*/
+    border-top: 1px solid black; /*$grey-color-light*/
     padding: $spacing-unit 0;
+    float: none;
 }
 
 .site-footer p {
