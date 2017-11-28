@@ -418,7 +418,7 @@ article p {
 
 #post-img {
   width: 100%;
-  height: auto;
+  padding-bottom: 200px;
   position: relative;
   border-radius: 100%;
   background: url("https://dl.dropboxusercontent.com/s/5fgyahbnnms7wxh/blog-img.jpg?dl=0") no-repeat center center;
