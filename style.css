@@ -390,7 +390,7 @@ footer li img {
 
 /*blog posts page settings*/
 
-#post-text {
+.page-content #post-text {
   color: white;
   padding: 10px 30px;
 }
