@@ -261,8 +261,8 @@ footer li img {
   opacity: 0;
   animation-name: moveIn;
   animation-duration: 1s;
-  -webkit-animation-timing-function: linear;
-  animation-timing-function: linear;
+  -webkit-animation-timing-function: ease-in-out;
+  animation-timing-function: ease-in-out;
   animation-delay: 1s;
 }
 
