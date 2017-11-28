@@ -39,10 +39,14 @@ $(document).ready( function() {
   //#post-img animation
   
   function flicker() {
+    
+  var count = Math.floor(Math.random() * 10000) + 1;  
+  
   $('#post-img').fadeTo(5, 0).delay(500).fadeTo(100, 1);
+  
     
     }
-    setInterval(flicker, Math.floor((Math.random() * 10000) + 1));
+    setInterval(flicker, count);
   
   
  //controls and settings for mobile devices
