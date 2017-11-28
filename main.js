@@ -63,6 +63,7 @@ if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(naviga
   $('#articles').css({'max-width' : '700px', 'float' : 'none', 'margin' : 'auto'});
   $('#sidebar').hide();
   $('#sidebar-two').fadeIn('slow');
+  $('#post-text').css({'margin' : 'auto'});
 
 /*//fade in and outs on play
  $("#landingvid").on('play',function() {
