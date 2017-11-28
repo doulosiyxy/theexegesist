@@ -1,4 +1,29 @@
 ---
 layout: default-two
 ---
+<div class="home">
+<div id="post-text" class="col-sm-8">
+  <h1 class="page-heading" >Posts, Articles & Essays</h1>
 
+  <ul class="post-list">
+    {% for post in site.posts %}
+      <li>
+        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+
+        <h2>
+          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+        </h2>
+        <p>{{ post.content | strip_html | truncatewords:75 }}</p>
+      </li>
+    {% endfor %}
+  </ul>
+
+  
+
+</div>
+ 
+</div>
+ <div id="post-img" class="col-sm-4">
+    <img id="blog-img" src="https://dl.dropboxusercontent.com/s/2o04s3qc38ktnms/blog-img.png?dl=0"/>
+    <p style="text-align: center; color: #8c0404;" class="rss-subscribe">subscribe <a href="{{ "../feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
+  </div>
