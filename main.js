@@ -39,7 +39,7 @@ $(document).ready( function() {
   //#post-img animation
   
   function flicker() {
-  $('#post-img').fadeTo(5, 0).delay(5).fadeTo(100, 1);
+  $('#post-img').fadeTo(5, 0).delay(500).fadeTo(100, 1);
     
     }
     setInterval(flicker, 1000);
