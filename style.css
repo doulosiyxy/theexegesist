@@ -395,9 +395,10 @@ footer li img {
   padding: 10px 30px;
 }
 
-#post-text {
+#post-text p {
   text-align: justify;
   justify: kashida;
+  font-size: 14px;
 }
 
 #articles {
