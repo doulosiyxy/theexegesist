@@ -402,6 +402,12 @@ footer li img {
 
 #post-img {
   position: relative;
-  float: right;
 }
+
+#blog-img {
+  border-radius: 100%;
+  box-shadow: 0 0 10px black inset;
+}
+
+
 
