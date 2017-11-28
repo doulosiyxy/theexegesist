@@ -62,7 +62,7 @@ if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(naviga
   //blog posts
   $('#articles').css({'max-width' : '700px', 'float' : 'none', 'margin' : 'auto'});
   $('#sidebar').hide();
-  $('#sidebar-two').fadeIn('slow').css({'max-width' : '260px'});
+  $('#sidebar-two').fadeIn('slow').css({'max-width' : '260px', 'margin-top' : '20px'});
   $('#post-text').removeClass('col-sm-8').addClass('col-sm-12').css({'max-width' : '550px', 'float' : 'none', 'margin' : 'auto'});
 
 /*//fade in and outs on play
