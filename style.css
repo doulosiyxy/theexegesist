@@ -395,6 +395,11 @@ footer li img {
   padding: 10px 30px;
 }
 
+#post-text {
+  text-align: justify;
+  justify: kashida;
+}
+
 #articles {
   color: white;
   padding: 10px 30px;
