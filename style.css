@@ -400,6 +400,12 @@ footer li img {
   padding: 10px 30px;
 }
 
+#articles p {
+  font-size: 14px;
+  text-align: justify;
+  text-justify: kashida;
+}
+
 #post-img {
   position: relative;
 }
@@ -407,7 +413,7 @@ footer li img {
 #blog-img {
   border-radius: 100%;
   border: 5px solid black;
-  box-shadow: 0px 0px 100px white inset;
+  box-shadow: 0px 0px 100px 50px white inset;
 }
 
 
