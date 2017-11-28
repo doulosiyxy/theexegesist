@@ -42,7 +42,7 @@ $(document).ready( function() {
     $('#post-img').fadeTo(5, 0).delay(50).fadeTo(100, 1).delay(50).fadeTo(5, 0).delay(50).fadeTo(100, 1); 
     }
     
-  setInterval(flicker, 1000);
+  setInterval(flicker, 10000);
   
   
  //controls and settings for mobile devices
