@@ -414,6 +414,7 @@ article p {
 
 #sidebar {
    position: relative;
+   margin-top: 20px;
 }
 
 #post-img {
