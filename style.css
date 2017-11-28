@@ -426,7 +426,7 @@ article p {
 #blog-img {
   border-radius: 100%;
   border: 5px solid black;
-  box-shado: inset 1px 1px 20px white;
+  box-shadow: inset 1px 1px 20px white;
 }
 
 
