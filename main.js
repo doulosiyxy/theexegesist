@@ -34,7 +34,7 @@ $(document).ready( function() {
   
   // about page text fadeTo 
   
-  $('#about-text').delay(2000).fadeTo(2000, 1);
+  $('#about-text').delay(1000).fadeTo(2000, 1);
   
   
  //controls and settings for mobile devices
