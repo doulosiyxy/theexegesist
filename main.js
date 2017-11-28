@@ -55,8 +55,12 @@ if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(naviga
   $('#landingvid').hide();
   $('#poster').show();
   
+  // about page
   $('#about-text').removeClass('col-sm-4').addClass('col-sm-12').css({'max-width' : '500px', 'float' : 'none', 'margin' : 'auto'});
   $('#about-img').removeClass('col-sm-8').addClass('col-sm-12');
+  
+  //blog posts
+  $('#articles').css({'max-width' : '500px', 'float' : 'none', 'margin' : 'auto'});
 
 /*//fade in and outs on play
  $("#landingvid").on('play',function() {
