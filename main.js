@@ -60,7 +60,7 @@ if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(naviga
   $('#about-img').removeClass('col-sm-8').addClass('col-sm-12');
   
   //blog posts
-  $('#articles').css({'max-width' : '500px', 'float' : 'none', 'margin' : 'auto'});
+  $('#articles').css({'max-width' : '700px', 'float' : 'none', 'margin' : 'auto'});
 
 /*//fade in and outs on play
  $("#landingvid").on('play',function() {
