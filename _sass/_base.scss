@@ -107,11 +107,11 @@ a {
     text-decoration: none;
 
     &:visited {
-        color: #ffd702 /*darken($brand-color, 15%);*/
+        color: #ffd702; /*darken($brand-color, 15%);*/
     }
 
     &:hover {
-        color: #ffd702 /*$text-color;*/
+        color: #ffd702; /*$text-color;*/
         text-decoration: none;
     }
 }
