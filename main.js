@@ -62,7 +62,7 @@ if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(naviga
   //blog posts
   $('#articles').css({'max-width' : '700px', 'float' : 'none', 'margin' : 'auto'});
   $('#sidebar').hide();
-  $('#sidebar-two').slideDown();
+  $('#sidebar-two').fadeIn('slow');
 
 /*//fade in and outs on play
  $("#landingvid").on('play',function() {
