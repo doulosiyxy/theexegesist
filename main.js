@@ -46,11 +46,23 @@ $(document).ready( function() {
   
   //popups
   
-  $('.icon').on('mouseover | click', () => {
+  $('.icon').on({
+    mouseover | click: () => {
     $('#mypopup').toggleClass("show");
     $('.popup').toggleClass("show");
     $('.popuptext').toggleClass("show");
+ },
+    mouseleave: () => {
+    
+    $('#mypopup').removeClass("show");
+    $('.popup').removeClass("show");
+    $('.popuptext').removeClass("show");
+  }
+               
   });
+  
+  
+
   
   
  //controls and settings for mobile devices
