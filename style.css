@@ -462,7 +462,7 @@ article p {
     margin-left: -80px;
 }
 
-/* Popup arrow */
+/* Popup arrow 
 .popup .popuptext::after {
     content: "";
     position: absolute;
@@ -472,7 +472,7 @@ article p {
     border-width: 5px;
     border-style: solid;
     border-color: #8c0404 transparent transparent transparent;
-}
+}*/
 
 /* Toggle this class - hide and show the popup */
 .popup .show {
