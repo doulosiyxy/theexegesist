@@ -47,9 +47,9 @@ $(document).ready( function() {
   //popups
   
   $('.icon').on('click', () => {
-    $('#mypopup').toggleClass('show');
-    $('.popup').toggleClass('show');
-    $('.popuptext).toggleClass('show');
+    $('#mypopup').toggleClass("show");
+    $('.popup').toggleClass("show");
+    $('.popuptext).toggleClass("show");
   });
   
   
