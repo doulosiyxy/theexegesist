@@ -8,8 +8,7 @@
 # Site settings
 title: The Exegesist
 email: jamesrcrooke@gmail.com
-description: > # this means to ignore newlines until "baseurl:"
-Bringing darkness to light: <i>The Exegesist</i> exists to explore sophisticated horror and its message about the human condition, or more accurately, human abberation.
+description: > Bringing darkness to light, <i>The Exegesist</i> exists to explore sophisticated horror and its message about the human condition, or more accurately, human abberation. # this means to ignore newlines until "baseurl:"
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://theexegesist.com" # the base hostname & protocol for your site
 twitter_username: theexegesist
