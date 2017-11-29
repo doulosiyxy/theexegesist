@@ -47,7 +47,7 @@ $(document).ready( function() {
   //popups
   
   $('.icon').on('click', () => {
-    $('.popup').toggle('show');
+    $('#mypopup').toggle('show');
   });
   
   
