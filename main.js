@@ -44,6 +44,10 @@ $(document).ready( function() {
     
   setInterval(flicker, 10000);
   
+  $('#post-img').on('click', () => {
+  	flicker();
+  }); 
+  
   //popups
   
   $('.icon').on('mouseover | click', () => {
