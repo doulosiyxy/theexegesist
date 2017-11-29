@@ -448,8 +448,6 @@ article p {
 
 /* The actual popup */
 .popup .popuptext {
-    font-family: 'Roboto', sans-serif;
-    font-weight: 300;
     visibility: hidden;
     width: 160px;
     background-color: rgb(140,4,4);
