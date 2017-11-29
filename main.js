@@ -46,19 +46,14 @@ $(document).ready( function() {
   
   //popups
   
-  $('.icon').on({
-    click: function() {
+  $('.icon').on('mouseover | click', () => {
     $('#mypopup').toggleClass("show");
     $('.popup').toggleClass("show");
-    $('.popuptext').toggleClass("show");
- },
-    mouseleave: function() {
-    
+    $('.popuptext').toggleClass("show");          
+  }).on('mouseleave', () => {
     $('#mypopup').removeClass("show");
     $('.popup').removeClass("show");
     $('.popuptext').removeClass("show");
-  }
-               
   });
   
   
