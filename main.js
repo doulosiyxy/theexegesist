@@ -45,9 +45,9 @@ $(document).ready( function() {
     
   setInterval(flicker, 10000);
   
-  //$('#post-img').on('click', () => {
-  	//$('#post-img').fadeTo(5, 0).delay(50).fadeTo(100, 1).delay(50).fadeTo(5, 0).delay(1000).fadeTo(100, 1);
-  //}); 
+  $('#post-img').on('click', () => {
+  	$('#post-img').fadeTo(5, 0).delay(50).fadeTo(100, 1).delay(50).fadeTo(5, 0).delay(1000).fadeTo(100, 1);
+  }); 
   
   //popups
   
