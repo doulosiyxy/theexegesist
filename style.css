@@ -420,7 +420,7 @@ article p {
    margin-top: 20px;
 }
 
-#post-img {
+.post-img {
   width: 90%;
   padding-bottom: 90%;
   position: relative;
