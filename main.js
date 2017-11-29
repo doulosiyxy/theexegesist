@@ -49,6 +49,7 @@ $(document).ready( function() {
   $('.icon').on('click', () => {
     $('#mypopup').toggleClass('show');
     $('.popup').toggleClass('show');
+    $('.popuptext).toggleClass('show');
   });
   
   
