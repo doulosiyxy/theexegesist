@@ -450,8 +450,8 @@ article p {
 .popup .popuptext {
     visibility: hidden;
     width: 160px;
-    background-color: #8c0404;
-    color: #fff;
+    background-color: rgba(140,4,4, 0.8);
+    color: rgba(0,0,0, 0.8);
     text-align: center;
     border-radius: 6px;
     padding: 8px 0;
@@ -471,7 +471,7 @@ article p {
     margin-left: -5px;
     border-width: 5px;
     border-style: solid;
-    border-color: #8c0404 transparent transparent transparent;
+    border-color: rgba(140,4,4, 0.8) transparent transparent transparent;
 }*/
 
 /* Toggle this class - hide and show the popup */
