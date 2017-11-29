@@ -47,12 +47,12 @@ $(document).ready( function() {
   //popups
   
   $('.icon').on({
-    mouseover | click: () => {
+    mouseover | click: function() {
     $('#mypopup').toggleClass("show");
     $('.popup').toggleClass("show");
     $('.popuptext').toggleClass("show");
  },
-    mouseleave: () => {
+    mouseleave: function() {
     
     $('#mypopup').removeClass("show");
     $('.popup').removeClass("show");
