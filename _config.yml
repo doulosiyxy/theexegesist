@@ -8,7 +8,7 @@
 # Site settings
 title: The Exegesist
 email: jamesrcrooke@gmail.com
-description: >- 
+description: > 
 Bringing darkness to light, The Exegesist exists to explore sophisticated horror and its message about the human condition, or more accurately, human abberation. 
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://theexegesist.com" # the base hostname & protocol for your site
