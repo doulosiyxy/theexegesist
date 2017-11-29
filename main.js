@@ -44,6 +44,12 @@ $(document).ready( function() {
     
   setInterval(flicker, 10000);
   
+  //popups
+  
+  $('.icon').on('click', () => {
+    $('.popup').show();
+  });
+  
   
  //controls and settings for mobile devices
   
