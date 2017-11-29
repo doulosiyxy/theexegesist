@@ -46,7 +46,7 @@ $(document).ready( function() {
   
   //popups
   
-  $('.icon').on('click', () => {
+  $('.icon').on('mouseover | click', () => {
     $('#mypopup').toggleClass("show");
     $('.popup').toggleClass("show");
     $('.popuptext').toggleClass("show");
