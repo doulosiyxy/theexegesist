@@ -68,10 +68,11 @@ header p {
   border-radius: 0px;
   cursor: pointer;
   opacity: 0;
+  text-align: center;
   text-decoration: none;
   float: right;
   padding: 10px;
-  width: 200px;
+  width: 150px;
   
 }
 
