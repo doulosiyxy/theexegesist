@@ -335,11 +335,12 @@ footer li img {
   opacity: 1;
   text-decoration: none;
   float: right;
-  padding: 0 5px;
-  margin: 0 2px;
+  padding: 10px 5px;
+  margin: 0 3px;
   color: #8C0404;
   font-size: 16px;
   font-weight: 600;
+  border: 1px solid #8C0404;
 }
 
 #blog-btn:hover {
@@ -363,7 +364,7 @@ footer li img {
   opacity: 1;
   text-decoration: none;
   float: right;
-  padding: 0 5px;
+  padding: 1px0 5px;
   margin: 0 10px 0 3px;
   color: #8C0404;
   font-size: 16px;
@@ -374,7 +375,7 @@ footer li img {
   color: black;
   background-color: #8C0404;
   text-decoration: none;
-
+  border: 1px solid #8C0404;
 }
 
 #about-btn:active {
