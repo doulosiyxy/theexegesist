@@ -329,7 +329,7 @@ footer li img {
 }
 
 #blog-btn {
-  /*border: 2px solid #8C0404;*/
+  border: 1px solid #8C0404;
   border-radius: 0px;
   cursor: pointer;
   opacity: 1;
@@ -340,7 +340,7 @@ footer li img {
   color: #8C0404;
   font-size: 16px;
   font-weight: 600;
-  box-sizing: border-box;
+  border: 1px solid none;
 }
 
 #blog-btn:hover {
@@ -348,7 +348,7 @@ footer li img {
   background-color: #8C0404;
   text-decoration: none;
   border: 1px solid #8C0404;
-  box-sizing: border-box;
+  
 }
 
 #blog-btn:active {
@@ -359,18 +359,17 @@ footer li img {
 }
 
 #about-btn {
-  /*border: 2px solid #8C0404;*/
   border-radius: 0px;
   cursor: pointer;
   opacity: 1;
   text-decoration: none;
   float: right;
   padding: 10px 5px;
-  margin: 0 10px 0 3px;
+  margin: 0 10px 0 5px;
   color: #8C0404;
   font-size: 16px;
   font-weight: 600;
-  box-sizing: border-box;
+  border: 1px solid none;
 }
 
 #about-btn:hover {
@@ -378,7 +377,7 @@ footer li img {
   background-color: #8C0404;
   text-decoration: none;
   border: 1px solid #8C0404;
-  box-sizing: border-box;
+  
 }
 
 #about-btn:active {
