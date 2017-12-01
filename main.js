@@ -61,6 +61,6 @@ if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(naviga
   $('#sidebar').hide();
   $('#sidebar-two').fadeIn('slow').css({'max-width' : '260px', 'margin-top' : '20px'});
   $('#post-text').removeClass('col-sm-8').addClass('col-sm-12').css({'max-width' : '550px', 'float' : 'none', 'margin' : 'auto'}); 
-  $('.icon').css({'width' : '10px', 'height' : '10px'});
+  $('.icon').css({'max-width' : '10px', 'max-height' : '10px'});
 }   
 });
