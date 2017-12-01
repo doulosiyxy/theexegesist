@@ -73,21 +73,17 @@ header p {
   float: right;
   padding-top: 10px;
   padding-bottom: 10px;
-  width: 90px;
-  
 }
 
 #enter-btn:hover {
   color: black;
   background-color: #8C0404;
   text-decoration: none;
-
 }
 
 #enter-btn:active {
   box-shadow: 2px -1px 9px #000000 inset;
   text-decoration: none;
-
 }
 
 
@@ -116,6 +112,7 @@ header p {
   margin-top: 0px;
   margin-right: 15px;
   right: 0;
+  top: 0;
   position: absolute;
   z-index: 900;
   opacity: 0; 
@@ -131,6 +128,7 @@ header p {
   margin-top: -10px;
   margin-right: 15px;
   right: 0;
+  top: 0;
   position: absolute;
   z-index: 900;
   opacity: 0; 
