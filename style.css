@@ -1,6 +1,8 @@
 .icon {
   float: right;
-  border: 1px solid white; 
+  border: 1px solid white;
+  width: 32px;
+  height: 32px; 
 }
 
 body {
