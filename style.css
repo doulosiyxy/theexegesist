@@ -1,6 +1,5 @@
 .icon {
   float: right;
-  border: 1px solid white;
   width: 20px;
   height: 20px;
   padding-right: 0px; 
@@ -259,8 +258,6 @@ footer li img {
     to {bottom: 0px;}
 }
 
-
-
 #about-text {
   z-index: 0;
   margin-bottom: 25px;
@@ -470,18 +467,6 @@ article p {
     left: 50%;
     margin-left: -80px;
 }
-
-/* Popup arrow 
-.popup .popuptext::after {
-    content: "";
-    position: absolute;
-    top: 100%;
-    left: 50%;
-    margin-left: -5px;
-    border-width: 5px;
-    border-style: solid;
-    border-color: rgba(140,4,4, 0.8) transparent transparent transparent;
-}*/
 
 /* Toggle this class - hide and show the popup */
 .popup .show {
