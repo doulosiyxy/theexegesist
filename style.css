@@ -70,8 +70,8 @@ header p {
   opacity: 0;
   text-decoration: none;
   float: right;
-  padding-top: 10px;
-  padding-bottom: 10px;
+  padding: 10px 10px;
+  
 }
 
 #enter-btn:hover {
@@ -101,8 +101,8 @@ header p {
 
 #close {
   color: #8C0404;
-  font-weight: 400;
-  font-size: 25px;      
+  font-weight: 800;
+  font-size: 40px;      
   width: 100%;
   height: 100%;
   box-sizing: border-box;
