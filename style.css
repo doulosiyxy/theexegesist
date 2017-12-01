@@ -340,6 +340,7 @@ footer li img {
   color: #8C0404;
   font-size: 16px;
   font-weight: 600;
+  box-sizing: border-box;
 }
 
 #blog-btn:hover {
@@ -347,7 +348,7 @@ footer li img {
   background-color: #8C0404;
   text-decoration: none;
   border: 1px solid #8C0404;
-
+  box-sizing: border-box;
 }
 
 #blog-btn:active {
@@ -369,6 +370,7 @@ footer li img {
   color: #8C0404;
   font-size: 16px;
   font-weight: 600;
+  box-sizing: border-box;
 }
 
 #about-btn:hover {
@@ -376,6 +378,7 @@ footer li img {
   background-color: #8C0404;
   text-decoration: none;
   border: 1px solid #8C0404;
+  box-sizing: border-box;
 }
 
 #about-btn:active {
