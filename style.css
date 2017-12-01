@@ -64,12 +64,14 @@ header p {
 }
 
 #enter-btn {
-  border: 2px solid #8C0404;
-  border-radius: 2px;
+  border: 1px solid #8C0404;
+  border-radius: 0px;
   cursor: pointer;
   opacity: 0;
   text-decoration: none;
   float: right;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 
 #enter-btn:hover {
@@ -133,27 +135,19 @@ header p {
 
 #close-wrapper: hover {
   cursor: pointer;
-  background-color: #8C0404;
 }
 
 #close:hover {
   cursor: pointer;
-  background-color: #8C0404;
-  color: black;
+  color: white;
 }
 
 #close-wrapper:active {
-  cursor: pointer;
-  background: #8C0404;
-  color: black;
-  box-shadow: 2px -1px 9px #000000 inset;
 }
 
 #close:active {
   cursor: pointer;
-  background: #8C0404;
-  color: black;
-  box-shadow: 2px -1px 9px #000000 inset;
+  color: #8C0404;
 }
 
 #landingvid (
