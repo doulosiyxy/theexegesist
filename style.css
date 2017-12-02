@@ -274,6 +274,11 @@ footer li img {
     to {opacity: 1;}
 }
 
+a:hover {
+  cursor: pointer;
+}
+
+
 #about-img {
   background-size: cover;
   z-index: 0;
