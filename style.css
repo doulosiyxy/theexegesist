@@ -79,11 +79,13 @@ header p {
   color: black;
   background-color: #8C0404;
   text-decoration: none;
+  cursor: pointer;
 }
 
 #enter-btn:active {
   box-shadow: 2px -1px 9px #000000 inset;
   text-decoration: none;
+  cursor: pointer;
 }
 
 
@@ -240,6 +242,7 @@ footer li img {
   width: 32px;
   height: 32px;
   color: red;
+  cursor: pointer;
 }
 
 /*below are adjustments for about page*/
@@ -319,13 +322,13 @@ footer li img {
   color: black;
   background-color: #8C0404;
   text-decoration: none;
-
+  cursor: pointer;
 }
 
 #read-more-btn:active {
   box-shadow: 2px -1px 9px #000000 inset;
   text-decoration: none;
-
+  cursor: pointer;
 }
 
 #blog-btn {
@@ -347,14 +350,14 @@ footer li img {
   background-color: #8C0404;
   text-decoration: none;
   border: 1px solid #8C0404;
-  
+  cursor: pointer;
 }
 
 #blog-btn:active {
   box-shadow: 2px -1px 9px #000000 inset;
   text-decoration: none;
   border: none;
-
+  cursor: pointer;
 }
 
 #about-btn {
@@ -377,6 +380,7 @@ footer li img {
   background-color: #8C0404;
   text-decoration: none;
   border: 1px solid #8C0404;
+  cursor: pointer;
   
 }
 
@@ -384,7 +388,7 @@ footer li img {
   box-shadow: 2px -1px 9px #000000 inset;
   text-decoration: none;
   border: none;
-
+  cursor: pointer;
 }
 
 /*blog posts page settings*/
