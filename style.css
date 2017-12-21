@@ -1,3 +1,11 @@
+.normal {
+  filter: invert(0%);
+}
+
+.inverted {
+  filter: invert(100%);
+}
+
 .icon {
   float: right;
   width: 20px;
