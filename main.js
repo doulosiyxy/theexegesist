@@ -35,11 +35,11 @@ $(document).ready( function() {
   $('.post-img').on('click', () => {
   	$('.post-img').fadeTo(5, 0).delay(50).fadeTo(100, 1).delay(50).fadeTo(5, 0).delay(1000).fadeTo(100, 1);
    // inverting elements
-        if($('.post-img').hasClass('normal')) {
+        /*if($('.post-img').hasClass('normal')) {
 	        $('*').removeClass('normal').addClass('inverted');
         } else {
 	        $('*').removeClass('inverted').addClass('normal');
-        }	
+        }*/	
     
   }); 
   //popups
