@@ -40,7 +40,7 @@ $(document).ready( function() {
         } else {
 	        $('*').removeClass('inverted').addClass('normal');
         }	
-    });
+    
   }); 
   //popups
   $('.icon').on('mouseover | click', () => {
