@@ -1,6 +1,10 @@
 // about page text fadeTo 
 $('#about-text').delay(1000).fadeTo(2000, 1);
 
+$('#title').on('click', () => {
+   		window.location.href='index.html';
+    });
+
 $(document).ready( function() {
   $('#close').delay(2000).fadeTo(2000, 1); 
   $("#landingvid").on("ended", function() {
