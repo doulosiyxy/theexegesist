@@ -2,7 +2,7 @@
 $('#about-text').delay(1000).fadeTo(2000, 1);
 
 $('#title').on('click', () => {
-   		window.location.href='index.html';
+   		window.location.href='{{ site.url }}/index.html';
     });
 
 $(document).ready( function() {
