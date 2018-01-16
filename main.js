@@ -58,6 +58,7 @@ $(document).ready( function() {
   });
  //controls and settings for mobile devices
 if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
+  $('#main-nav').css('margin-left', 'auto');
   $('#close').hide();
   //document.getElementById("landingvid").controls = true;
   $('.title').fadeTo(2000, 1);
