@@ -47,7 +47,7 @@ $(document).ready( function() {
     
   }); 
   //popups
-  $('.icon').on('mouseover | click', () => {
+  $('.icon-mu').on('mouseover | click', () => {
     $('#mypopup').toggleClass("show");
     $('.popup').toggleClass("show");
     $('.popuptext').toggleClass("show");          
