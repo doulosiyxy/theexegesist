@@ -17,6 +17,11 @@
   padding-right: 0px; 
 }
 
+.social {
+  width: 20px !important;
+  height: 20px !important;
+}
+
 body {
   font-family: 'Roboto', sans-serif;
   font-weight: 300;
