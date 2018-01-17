@@ -59,7 +59,7 @@ $(document).ready( function() {
  //controls and settings for mobile devices
 if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
   if ($(window).width() < 414) {
-    $('.icon').css('margin-left', '5px');
+    $('.icon').css('margin-left', '2px');
   }	
   $('#main-nav').css('margin-left', 'auto');
   $('#close').hide();
