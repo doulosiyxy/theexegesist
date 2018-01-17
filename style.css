@@ -12,8 +12,8 @@
 
 .icon {
   float: right;
-  width: 20px !important;
-  height: 20px !important;
+  width: 100%!important;
+  height: 100%!important;
   padding-right: 0px; 
 }
 
